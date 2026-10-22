@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TT Genesis – Căn hộ Nhà Bè | Huỳnh Mỹ Huyền ERA</title>
+<style>
+:root{--bg:#f6f4ef;--surface:#fff;--text:#1b2830;--muted:#5b6a74;--accent:#0b6e8a;--accent2:#c9822b;--line:#e2ddd1;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f171c;--surface:#18232a;--text:#eef2f4;--muted:#9fb0ba;--accent:#4cc3e0;--accent2:#e8a850;--line:#2a3a44}}
+:root[data-theme="dark"]{--bg:#0f171c;--surface:#18232a;--text:#eef2f4;--muted:#9fb0ba;--accent:#4cc3e0;--accent2:#e8a850;--line:#2a3a44}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+img{max-width:100%;display:block}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+nav b{font-size:15px}nav a.call{background:var(--accent2);color:#1d1203;padding:8px 16px;border-radius:999px;font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap}
+.hero{position:relative;color:#fff;min-height:70vh;display:flex;align-items:flex-end;background:#0b3d52 center/cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,28,38,.25),rgba(6,28,38,.88))}
+.hero .wrap{position:relative;padding-top:80px;padding-bottom:48px}
+.tag{letter-spacing:.14em;text-transform:uppercase;font-size:13px;opacity:.85}
+h1{font-size:clamp(30px,6vw,52px);line-height:1.15;margin:8px 0 12px}
+.hero p{max-width:620px;margin:0 0 22px;opacity:.95}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:16px}
+.btn.p{background:var(--accent2);color:#1d1203}.btn.g{border:1px solid rgba(255,255,255,.7);color:#fff;margin-left:8px}.btn.s{background:var(--accent);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:-28px;position:relative}
+.stats div{background:var(--surface);padding:16px;text-align:center}
+.stats b{display:block;font-size:26px;color:var(--accent)}.stats span{font-size:13px;color:var(--muted)}
+section{padding:46px 0}h2{font-size:28px;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 24px}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.info div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.info small{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.unit{display:grid;grid-template-columns:1.2fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:18px}
+.unit:nth-child(even) .ph{order:2}
+.ph{min-height:260px;background:center/cover}
+.tx{padding:24px;display:flex;flex-direction:column;justify-content:center}
+.tx h3{margin:0 0 4px;font-size:22px}.area{font-size:30px;font-weight:800;color:var(--accent);margin:4px 0 8px}
+.tx ul{margin:0;padding-left:18px;color:var(--muted)}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.gal img{border-radius:14px;width:100%;height:100%;object-fit:cover}
+.gal .big{grid-column:1/-1}
+.mp{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px}.mp img{border-radius:10px;width:100%}
+.ut{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.ut div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}.ut b{color:var(--accent)}
+.contact{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;align-items:start}
+.agent{font-size:20px;font-weight:700}.agent small{display:block;color:var(--muted);font-weight:400;font-size:15px}
+.phone{font-size:30px;font-weight:800;color:var(--accent);text-decoration:none;display:block;margin:8px 0 14px}
+input,textarea{width:100%;padding:12px 14px;margin-bottom:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text);font:inherit}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+footer{padding:30px 0 90px;color:var(--muted);font-size:13px}
+.float{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--accent2);color:#1d1203;padding:12px 18px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+@media(max-width:700px){.unit{grid-template-columns:1fr}.unit:nth-child(even) .ph{order:0}.btn.g{margin:8px 0 0}}
+
+.plan{background-size:contain!important;background-repeat:no-repeat;background-position:center;background-color:#efe6da}
+.tx .meta{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 10px}.tx .meta div{font-size:13px;color:var(--muted)}.tx .meta b{display:block;font-size:20px;color:var(--text)}
+.note{font-size:12px;color:var(--muted);margin-top:10px}
+.prog{background:#10203a;color:#fff;border-radius:22px;padding:28px;margin-bottom:26px}
+.prog .top{display:grid;grid-template-columns:1.2fr repeat(3,1fr);gap:20px;align-items:end}
+.prog .big{font-size:40px;font-weight:800;color:#d9b36a;line-height:1}.prog small{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.75;margin-top:6px}
+.prog p{margin:6px 0 0;font-size:14px;opacity:.9}
+.bar{height:8px;background:rgba(255,255,255,.15);border-radius:9px;margin-top:12px;overflow:hidden}.bar i{display:block;height:100%;width:5%;background:#d9b36a;border-radius:9px}
+.tl{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;position:relative;margin-top:6px}
+.tl::before{content:"";position:absolute;left:8%;right:8%;top:17px;height:2px;background:var(--line)}
+.tl div{text-align:center;position:relative;font-size:13px;color:var(--muted)}
+.tl .dot{width:36px;height:36px;border-radius:50%;margin:0 auto 8px;border:3px solid var(--line);background:var(--bg);display:grid;place-items:center;position:relative;font-size:14px}
+.tl .done .dot{background:var(--accent2);border-color:var(--accent2);color:#1d1203}
+.tl .now .dot{border-color:var(--accent2);background:var(--text);color:var(--accent2)}
+.tl b{display:block;font-size:16px;color:var(--text)}.tl em{display:block;font-style:normal;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:2px 0}
+.pil{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.pc{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:18px;color:#fff}
+.pc .hd{display:flex;justify-content:space-between;align-items:center;font-size:15px}.pc .bd{font-size:11px;font-weight:800;padding:4px 9px;border-radius:7px;background:#d9b36a;color:#1d1203}.pc .bd.kha{background:rgba(255,255,255,.18);color:#fff}
+.pc .sc{font-size:34px;font-weight:800;color:#d9b36a;margin:10px 0 6px}.pc .sc span{font-size:15px;color:#fff;opacity:.7;font-weight:400}
+.pc p{margin:10px 0 0;font-size:13px;opacity:.85;border-top:1px solid rgba(255,255,255,.14);padding-top:10px}
+.dark{background:linear-gradient(160deg,#0f2036,#1d3350);color:#fff}.dark .sub{color:rgba(255,255,255,.75)}
+.faq{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;align-items:start}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:18px 20px;font-weight:700;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:30px;height:30px;border-radius:50%;background:var(--bg);color:var(--accent2);display:grid;place-items:center;font-size:20px}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 20px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:15px;padding-top:14px}.faq .ans p{margin:0 0 10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.two img{border-radius:14px;width:100%}
+.ban{border-radius:16px;width:100%;margin-top:6px}
+@media(max-width:760px){.prog .top{grid-template-columns:1fr 1fr}.tl{grid-template-columns:1fr 1fr 1fr;row-gap:18px}.tl::before{display:none}.two{grid-template-columns:1fr}}
+.am{display:grid;grid-template-columns:1.3fr 1fr;background:var(--bg);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:16px}.am.alt .amg{order:2}.am.noimg{grid-template-columns:1fr}.amg{aspect-ratio:3/2}.amg img{min-height:0!important}.bdg{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.1em;color:#1d1203;background:var(--accent2);padding:3px 10px;border-radius:999px;margin-bottom:8px;align-self:flex-start}.amg{display:grid;gap:2px}.amg.g2{grid-template-columns:1fr 1fr}.amg img{width:100%;height:100%;min-height:240px;object-fit:cover}@media(max-width:700px){.am{grid-template-columns:1fr}.am.alt .amg{order:0}.amg.g2{grid-template-columns:1fr}}.lg{height:38px;width:auto}.brand{display:flex;align-items:center;gap:10px}.agent{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.agent .lg{height:58px}.ft{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.ft .lg{height:34px}</style>
+</head>
+<body>
+<nav><div class="wrap"><span class="brand"><picture><source media="(prefers-color-scheme: dark)" srcset="images/hinh-01.png"><img class="lg" src="images/hinh-02.png" alt="ERA Vietnam"></picture><b>TT Genesis · Nhà Bè</b></span><a class="call" href="tel:0907347728">Gọi 0907 347 728</a></div></nav>
+
+<div class="hero" style="background-image:url(images/hinh-03.jpg)"><div class="wrap">
+<div class="tag">Khu chung cư Đào Sư Tích · Nam Sài Gòn</div>
+<h1>TT Genesis</h1>
+<p>Dự án căn hộ 2 tòa tháp 30 tầng, kết nối toàn Nam Sài Gòn – nơi sông nước, đô thị hiện hữu và hạ tầng tương lai cùng hội tụ.</p>
+<a class="btn p" href="#lien-he">Nhận tư vấn ngay</a><a class="btn g" href="#can-ho">Xem loại căn hộ</a>
+</div></div>
+
+<div class="wrap"><div class="stats">
+<div><b>1.426</b><span>căn hộ</span></div><div><b>2</b><span>tòa tháp · 30 tầng</span></div><div><b>88</b><span>tiện ích nổi bật</span></div><div><b>Q3/2029</b><span>dự kiến bàn giao</span></div>
+</div></div>
+
+<section><div class="wrap">
+<h2>Thông tin dự án</h2><p class="sub">Thông tin chính do chuyên viên tổng hợp.</p>
+<div class="info">
+<div><small>Tên thương mại</small><b>TT Genesis</b> – do TT Capital phát triển cùng các đối tác Nhật Bản và Singapore</div><div><small>Tên pháp lý (trên HĐMB)</small>Khu chung cư Đào Sư Tích – thuộc Công ty Cổ phần Bất động sản Phúc Long – Phước Kiển</div><div><small>Đầu tư &amp; phát triển</small>Liên doanh Việt – Nhật – Singapore: TT Capital, Cosmos Initia, Hinokiya, Vietmax Capital, Koterasu</div>
+<div><small>Vị trí</small>Trục đường Đào Sư Tích, Phước Kiển, huyện Nhà Bè, TP. Hồ Chí Minh</div>
+<div><small>Quy mô</small>2 tòa tháp 30 tầng, 2 hầm · 1.426 căn (1.363 căn hộ, 12 sân vườn, 9 Penthouse, 42 Duplex)</div>
+<div><small>Tổng thầu xây dựng</small>Ricons</div>
+<div><small>Đơn vị quản lý vận hành</small>CBRE</div>
+<div><small>Ngân hàng bảo lãnh &amp; cho vay</small>VPBank, MBBank, ACB, Vietinbank</div>
+<div><small>Thiết kế kiến trúc</small>TWOG</div>
+<div><small>Thiết kế nội thất</small>Vertical Studio</div>
+<div><small>Tiêu chuẩn bàn giao</small>Hoàn thiện: bếp đầy đủ (tủ kệ trên dưới, bếp, bồn vòi rửa, máy rửa chén, máy lọc nước), phòng ngủ và phòng khách có máy lạnh</div>
+</div></div></section>
+
+<section id="can-ho" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap"><h2>Các loại căn hộ</h2><p class="sub">Mặt bằng căn hộ kèm thông số – bên cạnh là diện tích tim tường, lọt lòng.</p><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-04.jpg);"></div><div class="tx"><h3>Studio</h3><div class="area">35,24 m²</div><div class="meta"><div><b>35,24 m²</b>tim tường</div><div><b>31,82 m²</b>lọt lòng</div></div><ul><li>100% phòng khách và phòng ngủ có hướng nhìn trực diện bên ngoài</li><li>Phù hợp ở một mình, cặp đôi hoặc cho thuê</li></ul></div></div><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-05.jpg);"></div><div class="tx"><h3>1 phòng ngủ · 1WC</h3><div class="area">52,92 m²</div><div class="meta"><div><b>52,92 m²</b>tim tường</div><div><b>48,99 m²</b>lọt lòng</div><div><b>1 căn</b>mỗi tháp</div></div><ul><li>100% phòng khách và phòng ngủ có hướng nhìn trực diện bên ngoài</li><li>Ban công tách riêng khu giặt phơi</li></ul></div></div><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-06.jpg);"></div><div class="tx"><h3>2 phòng ngủ Basic · 2WC</h3><div class="area">69,00 m²</div><div class="meta"><div><b>69,00 m²</b>tim tường</div><div><b>63,42 m²</b>lọt lòng</div><div><b>6 căn</b>mỗi tháp</div></div><ul><li>100% phòng khách và phòng ngủ có hướng nhìn trực diện bên ngoài</li><li>Lựa chọn cân bằng cho gia đình trẻ</li></ul></div></div><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-07.jpg);"></div><div class="tx"><h3>2 phòng ngủ Plus · 2WC</h3><div class="area">73,96 m²</div><div class="meta"><div><b>73,96 m²</b>tim tường</div><div><b>68,34 m²</b>lọt lòng</div><div><b>2 căn</b>mỗi tháp</div></div><ul><li>100% đón nắng, đón gió tự nhiên, hướng nhìn trực diện bên ngoài</li><li>Số lượng giới hạn</li></ul></div></div><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-08.jpg);"></div><div class="tx"><h3>3 phòng ngủ Basic · 2WC</h3><div class="area">94,55 m²</div><div class="meta"><div><b>94,55 m²</b>tim tường</div><div><b>88,83 m²</b>lọt lòng</div><div><b>2 căn</b>mỗi tháp</div></div><ul><li>100% phòng khách và phòng ngủ có hướng nhìn trực diện bên ngoài</li><li>Căn 3PN có diện tích từ 94,6 đến 119,6 m²</li></ul></div></div><div class="unit"><div class="ph plan" style="background-image:url(images/hinh-09.jpg);"></div><div class="tx"><h3>Sân vườn · 3 phòng ngủ</h3><div class="area">108,20 m²</div><div class="meta"><div><b>108,20 m²</b>tim tường</div><div><b>101,92 m²</b>lọt lòng</div><div><b>Tầng 27–28–29</b>vị trí</div></div><ul><li>Sân vườn rộng riêng trên cao, bếp và phòng khách mở ra sân</li><li>Ngoài ra có 42 căn Duplex và 9 Penthouse (85 – 268 m²), số lượng giới hạn</li></ul></div></div><p class="note">Hình ảnh minh họa, đồ nội thất chỉ mang tính tham khảo. Thông số bản vẽ là tương đối.</p></div></section>
+
+<section><div class="wrap">
+<h2>Hình ảnh nhà mẫu &amp; thực tế dự án</h2><p class="sub">Hình thực tế do chuyên viên chụp.</p>
+<div class="gal"><img class="big" src="images/hinh-10.jpg" alt="Nhà mẫu căn hộ lớn" loading="lazy"><img src="images/hinh-11.jpg" alt="Khách tham quan nhà mẫu" loading="lazy"><img src="images/hinh-12.jpg" alt="Khu bếp và phòng khách nhà mẫu" loading="lazy"><img class="big" src="images/hinh-03.jpg" alt="Công trường dự án Đào Sư Tích" loading="lazy"></div>
+<h2 style="margin-top:34px;font-size:22px">Phối cảnh nội thất</h2><div class="gal"><img class="big" src="images/hinh-13.jpg" alt="Phối cảnh phòng khách" loading="lazy"><img src="images/hinh-14.jpg" alt="Bếp và phòng ăn" loading="lazy"><img src="images/hinh-15.jpg" alt="Phòng ngủ" loading="lazy"><img src="images/hinh-16.jpg" alt="Phòng tắm" loading="lazy"><img src="images/hinh-17.jpg" alt="Phòng ngủ chính" loading="lazy"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<h2>Mặt bằng tổng thể</h2><p class="sub">Vị trí dự án (khung đỏ) trong khu dân cư hiện hữu, gần sông và các tiện ích.</p>
+<div class="mp"><img src="images/hinh-18.jpg" alt="Mặt bằng tổng thể dự án" loading="lazy"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><h2>Vị trí &amp; kết nối</h2><p class="sub">Một bước chân, ngàn kết nối.</p>
+<img class="ban" src="images/hinh-19.jpg" alt="Phối cảnh tổng thể dự án nhìn từ trên cao" loading="lazy">
+<div class="info" style="margin-top:14px"><div><small>Metro</small>1 phút đến sảnh chờ Metro số 4 &amp; số 7</div><div><small>Phú Mỹ Hưng</small>3 phút đến trung tâm Phú Mỹ Hưng</div><div><small>Tiện ích</small>5 phút chạm hệ tiện ích cao cấp</div></div>
+<img class="ban" style="margin-top:14px" src="images/hinh-20.jpg" alt="Bản đồ vị trí và trường học lân cận" loading="lazy"></div></section>
+<section style="background:var(--surface);border-top:1px solid var(--line)"><div class="wrap">
+<h2>Tiện ích nổi bật</h2><p class="sub">Hơn 8.000 m² tiện ích ngoài trời và 2.800 m² tiện ích trong nhà.</p>
+<img class="ban" style="margin-bottom:14px" src="images/hinh-21.jpg" alt="88 tiện ích tinh tuyển" loading="lazy"><p class="sub">TT Capital gom các tiện ích thành những phân khu biểu tượng, phục vụ đầy đủ Trí – Tâm – Thân cho cư dân mọi lứa tuổi.</p><div class="am"><div class="amg g1"><img src="images/hinh-22.jpg" alt="Apollo · Quảng trường tri thức" loading="lazy"></div><div class="tx"><span class="bdg">TRÍ</span><h3>Apollo · Quảng trường tri thức</h3><div class="area" style="font-size:16px">Phân khu phát triển Trí và kết nối cộng đồng</div><ul><li>Bãi cỏ đa năng, khu ghế ngồi tổ ong, cây tri thức</li><li>Khu tự học, đọc sách ngoài trời và điểm gặp gỡ, trao đổi ý tưởng cho cư dân và trẻ nhỏ</li></ul></div></div><div class="am alt"><div class="amg g1"><img src="images/hinh-23.jpg" alt="Pyramid · Tọa độ trung tâm" loading="lazy"></div><div class="tx"><span class="bdg">TRUNG TÂM</span><h3>Pyramid · Tọa độ trung tâm</h3><div class="area" style="font-size:16px">Quảng trường 836 m² · biểu tượng tri thức và khát vọng</div><ul><li>Kim tự tháp trung tâm, đường dạo bộ ánh sáng, chòi nghỉ</li><li>Khu BBQ có mái che, khu ăn uống ngoài trời, lối vào thang máy kết nối các tầng</li></ul></div></div><div class="am"><div class="amg g1"><img src="images/hinh-24.jpg" alt="Healing Garden · Flourish Garden" loading="lazy"></div><div class="tx"><span class="bdg">TÂM</span><h3>Healing Garden · Flourish Garden</h3><div class="area" style="font-size:16px">Vườn thư thái ~400 m² · khu dưỡng sinh ~380 m²</div><ul><li>Vườn rau cư dân, vườn thảo mộc, khu vực hoa vàng, vườn thú cưng</li><li>Đường dạo thư giãn, cảnh quan xanh, đường chạy bộ, sân bóng rổ, cầu vọng cảnh</li></ul></div></div><div class="am alt"><div class="amg g1"><img src="images/hinh-25.jpg" alt="Sunset Skyzone" loading="lazy"></div><div class="tx"><span class="bdg">TÂM</span><h3>Sunset Skyzone</h3><div class="area" style="font-size:16px">Không gian trên cao ngắm hoàng hôn</div><ul><li>Thanh mây vọng cảnh, khu ngắm cảnh, khu tập golf mini</li><li>Khu chiếu phim ngoài trời, đường dạo bộ trên cao, chòi thư giãn, hồ cảnh quan trên cao</li></ul></div></div><div class="am"><div class="amg g2"><img src="images/hinh-26.jpg" alt="The Oasis · Tổ hợp hồ bơi" loading="lazy"><img src="images/hinh-27.jpg" alt="The Oasis · Tổ hợp hồ bơi" loading="lazy"></div><div class="tx"><span class="bdg">TÂM · THÂN</span><h3>The Oasis · Tổ hợp hồ bơi</h3><div class="area" style="font-size:16px">Hồ bơi và khu nghỉ dưỡng trung tâm</div><ul><li>Hồ bơi công nghệ muối khoáng, hồ bơi trẻ em, hồ Jacuzzi</li><li>Chòi nghỉ hồ bơi, ghế tắm nắng, thác nước giật tầng, khu vui chơi nước trẻ em</li></ul></div></div><div class="am alt"><div class="amg g1"><img src="images/hinh-28.jpg" alt="Olympic · Khu vận động thể chất" loading="lazy"></div><div class="tx"><span class="bdg">THÂN</span><h3>Olympic · Khu vận động thể chất</h3><div class="area" style="font-size:16px">Phân khu phát triển Thân</div><ul><li>Sân bóng rổ ngoài trời, đường chạy bộ nội khu và đường chạy trên cao</li><li>Khu tập thể thao đa năng, thiết bị vận động ngoài trời</li></ul></div></div><div class="am"><div class="amg g1"><img src="images/hinh-29.jpg" alt="Galaxy · Trạm khai phá" loading="lazy"></div><div class="tx"><span class="bdg">TRẺ EM</span><h3>Galaxy · Trạm khai phá</h3><div class="area" style="font-size:16px">Khu vui chơi trẻ em</div><ul><li>Khu vui chơi trẻ em, du quay, cầu trượt</li><li>Khu ghế nghỉ phụ huynh, vườn trẻ thơ</li></ul></div></div><div class="am alt"><div class="amg g1"><img src="images/hinh-30.jpg" alt="Khu BBQ" loading="lazy"></div><div class="tx"><span class="bdg">KẾT NỐI</span><h3>Khu BBQ</h3><div class="area" style="font-size:16px">Ăn uống ngoài trời</div><ul><li>Khu BBQ có mái che, khu ăn uống ngoài trời</li><li>Không gian quây quần cùng gia đình và bạn bè</li></ul></div></div><h2 style="margin-top:38px">Mặt bằng &amp; bản đồ tiện ích</h2><p class="sub">Vị trí các phân khu tiện ích ngoài trời trong khuôn viên Compound Resort.</p>
+<img class="ban" src="images/hinh-31.jpg" alt="Mặt bằng khu đất dự án" loading="lazy">
+<img class="ban" style="margin-top:14px" src="images/hinh-32.jpg" alt="Hệ sinh thái tiện ích ngoài trời 8.000 m2" loading="lazy">
+<img class="ban" style="margin-top:14px" src="images/hinh-33.jpg" alt="Bản đồ chú thích tiện ích ngoài trời" loading="lazy">
+</div></section>
+
+<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap"><h2>Phân kỳ bán hàng dự kiến</h2><p class="sub">Hai giai đoạn mở bán gắn với hai tòa The Lucis và The Maris.</p>
+<img class="ban" src="images/hinh-34.jpg" alt="Phân kỳ bán hàng dự kiến TT Genesis" loading="lazy">
+<div class="info" style="margin-top:14px"><div><small>Giai đoạn 1</small><b>The Lucis</b> · 668 căn</div><div><small>Giai đoạn 2</small><b>The Maris</b> · 770 căn</div></div></div></section><section id="tien-do"><div class="wrap"><h2>Tiến độ thực tế</h2><p class="sub">Hình ảnh thực tế tại công trường được cập nhật định kỳ theo từng tháng.</p>
+<div class="prog"><div class="top"><div><div class="big">5%</div><small>Tổng tiến độ</small><div class="bar"><i></i></div></div>
+<div><div class="big">10/26</div><small>Công bố tòa đầu tiên</small><p>The Lucis với 668 căn hộ</p></div>
+<div><div class="big">Q3/27</div><small>Dự kiến xong móng</small><p>Ký hợp đồng mua bán</p></div>
+<div><div class="big">Q3/29</div><small>Dự kiến bàn giao</small><p>Toàn dự án</p></div></div></div>
+<div class="tl"><div class="done"><span class="dot">✓</span><b>07/2026</b><em>Khởi công</em>Khởi công, ép cọc nền móng</div><div class="done"><span class="dot">✓</span><b>08/2026</b><em>Đang thi công</em>Phần móng &amp; Wow Center</div><div class="now"><span class="dot">●</span><b>10/2026</b><em>Đang diễn ra</em>Khai trương Wow Center – Nhà mẫu</div><div><span class="dot"></span><b>07/2027</b><em>Sắp tới</em>Hoàn thành móng hầm</div><div><span class="dot"></span><b>07/2028</b><em>Sắp tới</em>Cất nóc</div><div><span class="dot"></span><b>Q3/2029</b><em>Sắp tới</em>Bàn giao căn hộ</div></div></div></section><section class="dark"><div class="wrap"><h2>8 trụ cột dự án</h2><p class="sub">Mỗi trụ cột được chấm độc lập trên thang điểm 100 – tổng 82/100.</p><div class="pil"><div class="pc"><div class="hd"><span>⚖️ Pháp lý</span><span class="bd">TỐT</span></div><div class="sc">13 <span>/ 15</span></div><div class="bar"><i style="width:87%"></i></div><p>Hồ sơ pháp lý minh bạch, đầy đủ giấy tờ.</p></div><div class="pc"><div class="hd"><span>🏛️ Chủ đầu tư</span><span class="bd">TỐT</span></div><div class="sc">10 <span>/ 12</span></div><div class="bar"><i style="width:83%"></i></div><p>Kết hợp của 5 đơn vị, còn mới trên thị trường.</p></div><div class="pc"><div class="hd"><span>📅 Tiến độ</span><span class="bd kha">KHÁ</span></div><div class="sc">9 <span>/ 12</span></div><div class="bar"><i style="width:75%"></i></div><p>Đúng kế hoạch, chưa hoàn thiện phần móng.</p></div><div class="pc"><div class="hd"><span>📍 Vị trí</span><span class="bd kha">KHÁ</span></div><div class="sc">12 <span>/ 15</span></div><div class="bar"><i style="width:80%"></i></div><p>Ven sông, sát tuyến metro, chờ mở rộng đường.</p></div><div class="pc"><div class="hd"><span>🏗️ Sản phẩm</span><span class="bd">TỐT</span></div><div class="sc">11 <span>/ 12</span></div><div class="bar"><i style="width:92%"></i></div><p>Thiết kế hợp lý, vật liệu tốt, vận hành cao cấp.</p></div><div class="pc"><div class="hd"><span>🌳 Tiện ích</span><span class="bd">TỐT</span></div><div class="sc">10 <span>/ 12</span></div><div class="bar"><i style="width:83%"></i></div><p>Độc đáo, đa trải nghiệm.</p></div><div class="pc"><div class="hd"><span>💰 Tài chính</span><span class="bd kha">KHÁ</span></div><div class="sc">9.0 <span>/ 12</span></div><div class="bar"><i style="width:75%"></i></div><p>Giá dự kiến khá tốt, thanh toán linh hoạt.</p></div><div class="pc"><div class="hd"><span>📊 Thanh khoản</span><span class="bd">TỐT</span></div><div class="sc">8.0 <span>/ 10</span></div><div class="bar"><i style="width:80%"></i></div><p>Sản phẩm đẹp, ven sông hiếm, còn vắng.</p></div></div><p class="note" style="color:rgba(255,255,255,.65)">Điểm số mang tính tham khảo, dựa trên đánh giá tại thời điểm hiện tại và có thể thay đổi theo tiến độ thực tế.</p></div></section><section><div class="wrap"><h2>Câu hỏi thường gặp</h2><p class="sub">Bấm vào từng câu để xem giải đáp.</p><div class="faq"><div style="display:grid;gap:14px"><details><summary>Pháp lý dự án có đầy đủ không?</summary><div class="ans"><p>Dự án đã hoàn thiện phần lớn các thủ tục pháp lý nền tảng và đang đi theo đúng lộ trình triển khai.</p><p>Dự án đã có hồ sơ quyền sử dụng đất, hoàn tất giải tỏa – đền bù; được chấp thuận đầu tư với tổng vốn khoảng 2.850 tỷ đồng, đã được phê duyệt quy hoạch chi tiết 1/500, thuế sử dụng đất, giấy phép xây dựng. Hiện dự án đã chính thức khởi công; sau khi hoàn thành điều kiện xây dựng tương ứng, chủ đầu tư sẽ tiếp tục hoàn thiện bảo lãnh ngân hàng và hợp đồng mua bán.</p></div></details><details><summary>Khi nào dự án bàn giao?</summary><div class="ans"><p>Dự kiến trong quý 3/2029 sẽ bàn giao toàn bộ dự án.</p></div></details><details><summary>Chủ đầu tư có uy tín không?</summary><div class="ans"><p>Dự án được phát triển bởi liên danh Việt Nam – Nhật Bản – Singapore, có kinh nghiệm triển khai dự án cao cấp và tiềm lực tài chính mạnh.</p><p>Trong đó có Cosmos Initia (thành viên Daiwa House Group, Nhật Bản), Koterasu (quỹ đầu tư bất động sản Nhật Bản), cùng TT Capital, Vietmax Capital và Hinokiya. Tổng thầu thi công là Ricons.</p></div></details><details><summary>Chính sách vay vốn như thế nào?</summary><div class="ans"><p>Dự án có ngân hàng bảo lãnh và cho vay gồm VPBank, MBBank, ACB, Vietinbank. Chính sách hỗ trợ vay cụ thể tùy từng đợt bán hàng – vui lòng liên hệ để được cập nhật mới nhất.</p></div></details></div><div style="display:grid;gap:14px"><details><summary>Tiến độ dự án hiện tại như thế nào?</summary><div class="ans"><p>Dự án khởi công 07/2026, hiện đang thi công phần móng và Wow Center; tháng 10/2026 khai trương Wow Center – Nhà mẫu. Dự kiến hoàn thành móng hầm 07/2027, cất nóc 07/2028 và bàn giao quý 3/2029. Xem thêm ở mục Tiến độ thực tế phía trên.</p></div></details><details><summary>Tiềm năng cho thuê &amp; bán lại</summary><div class="ans"><p>Vị trí liền kề Phú Mỹ Hưng giúp dự án tiếp cận nhóm khách thuê là chuyên gia, người nước ngoài và các gia đình làm việc tại khu Nam Sài Gòn.</p><p>Khung giá thuê tham khảo: Studio 8–11 triệu/tháng, 1PN 11–15 triệu, 2PN 15–22 triệu, 3PN 22–35 triệu. Đây là mức tham chiếu từ các dự án tương đồng, không phải giá thuê cam kết; dự án dự kiến bàn giao quý III/2029.</p><p>Tiềm năng bán lại dựa trên 3 yếu tố: giá mua đợt đầu, kết nối khu Nam được cải thiện (metro, giao thông) và sản phẩm đáp ứng nhu cầu ở thực. Lợi nhuận thực tế cần tính trên tổng giá mua, thuế phí và chi phí vốn; dự án không cam kết tỷ lệ tăng giá.</p></div></details><details><summary>Giá bán và chính sách có tốt không?</summary><div class="ans"><p>Giá công bố từ 69 triệu đồng/m² tim tường, chưa VAT. Phương án thanh toán tham khảo: 29 triệu đồng/tháng trong 23 tháng sau khi ký hợp đồng mua bán, chưa VAT, giúp phân bổ vốn trong giai đoạn chờ bàn giao.</p><p>Giá và chính sách có thể thay đổi theo từng đợt – vui lòng liên hệ để nhận bảng giá mới nhất.</p></div></details><details><summary>Có nên mua ở thời điểm này không?</summary><div class="ans"><p>Có thể cân nhắc, đặc biệt với khách muốn tham gia từ giai đoạn đầu, nhưng chưa nên quyết định chỉ vì yếu tố “mua sớm”.</p><p>Điểm tích cực: dự án đã khởi công, pháp lý nền tảng tương đối rõ, có liên danh Việt – Nhật – Singapore và tổng thầu Ricons; mua sớm thường có quyền chọn căn, tầng, hướng view và chính sách bán hàng tốt hơn.</p><p>Tuy nhiên đây vẫn là giai đoạn đầu xây dựng, nên cần xem kỹ mức giá chính thức, phương thức thanh toán và mức độ hoàn thiện hạ tầng quanh dự án. Hãy liên hệ để được tư vấn và nhận bộ tài liệu đầy đủ.</p></div></details></div></div></div></section><section class="contact" id="lien-he"><div class="wrap cols">
+<div><h2>Liên hệ tư vấn</h2>
+<div class="agent"><span>Huỳnh Mỹ Huyền<small>Chuyên viên tư vấn – ERA</small></span><picture><source media="(prefers-color-scheme: dark)" srcset="images/hinh-01.png"><img class="lg" src="images/hinh-02.png" alt="ERA Vietnam"></picture></div>
+<a class="phone" href="tel:0907347728">0907 347 728</a>
+<div class="row"><a class="btn p" href="tel:0907347728">Gọi ngay</a><a class="btn s" href="https://zalo.me/0907347728" target="_blank" rel="noopener">Nhắn Zalo</a></div></div>
+<div><h2>Đăng ký nhận tư vấn</h2>
+<input id="n" placeholder="Họ và tên"><input id="p" type="tel" placeholder="Số điện thoại"><textarea id="m" rows="2" placeholder="Nhu cầu (loại căn, ngân sách…)"></textarea>
+<button class="btn s" id="send">Gửi tin nhắn cho chuyên viên</button>
+<p style="font-size:13px;color:var(--muted);margin:8px 0 0">Nút này mở ứng dụng tin nhắn trên máy bạn với nội dung điền sẵn gửi tới 0907 347 728.</p></div>
+</div></section>
+
+<footer><div class="wrap">
+<p>Thông tin, hình ảnh, tiện ích trên trang này mang tính tham khảo và có thể được Chủ đầu tư điều chỉnh theo quy hoạch và thực tế thi công. Thông tin chính thức được quy định tại Hợp đồng mua bán.</p>
+<p>Tên thương mại: TT Genesis. Tên pháp lý trên hợp đồng mua bán: Khu chung cư Đào Sư Tích (Công ty Cổ phần Bất động sản Phúc Long – Phước Kiển).</p><p>Trang có thu thập thông tin cá nhân để phục vụ tư vấn sản phẩm; thông tin của bạn chỉ dùng cho mục đích này.</p>
+<p class="ft">© Huỳnh Mỹ Huyền – ERA · 0907 347 728 <picture><source media="(prefers-color-scheme: dark)" srcset="images/hinh-01.png"><img class="lg" src="images/hinh-02.png" alt="ERA Vietnam"></picture></p>
+</div></footer>
+<a class="float" href="tel:0907347728">📞 0907 347 728</a>
+<script>
+document.getElementById('send').onclick=function(){
+var t='Tôi quan tâm dự án TT Genesis. Tên: '+document.getElementById('n').value+'. SĐT: '+document.getElementById('p').value+'. '+document.getElementById('m').value;
+location.href='sms:0907347728?&body='+encodeURIComponent(t);
+};
+</script>
+</body>
+</html>
